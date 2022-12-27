@@ -1,0 +1,43 @@
+.country {
+  background-image: linear-gradient(to bottom, rgba(192, 103, 39, 0.412) 0%, rgba(137, 124, 115, 0.8) 100%), url(worldaesthetic.jpeg);
+  color: rgb(255, 255, 255);
+  height: 700px;
+  width: 450px;
+  border-radius: 15px;
+  overflow-y: auto;
+}
+.country dt {
+  position: sticky;
+  top: 18px;
+  left: 18px;
+  font-weight: bold;
+  background: rgb(55, 18, 6);
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  padding: 4.5px 10px;
+  box-sizing: border-box;
+}
+
+.country dd {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 20%;
+  padding: 0.75rem;
+  font-size: 20px
+}
+body {
+  background: rgba(81, 149, 142, 0.688);
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display:grid;
+  place-items: center;
+}
+.design p {
+text-align: center;
+background-color: rgba(0, 0, 0, 0.517);
+border-radius: 15px;
+padding: 6px;
+}
